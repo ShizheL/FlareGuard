@@ -19,7 +19,7 @@ def get_credibility(wallet_address):
         return "error: No wallet address", 0 #html of nice format
         #return jsonify({"error": "Wallet address is required"}), 400
     
-    n1,n2,n3,count = main.main(wallet_address)  # Your script function
+    n1,n2,n3,count = main.main(wallet_address)
     return n1,n2,n3,count #html of nice format
     #return jsonify({"credibility_score": credibility_score})
 
